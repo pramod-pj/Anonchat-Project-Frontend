@@ -3,7 +3,7 @@ import Chat from "./chat";
 import Home from "./home";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:3001", {
+const socket = io("https://anonchat-project-backend-1.onrender.com", {
   autoConnect: true,
   reconnectionAttempts: 5,
 });
